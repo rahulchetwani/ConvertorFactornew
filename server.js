@@ -6,6 +6,7 @@ app.get('/getCurrencyconvertorfactor',function(req,res)
 {
     //console.log(req.query);
     //res.send("Hello "+ req.query.name);
-    res.json({result:64.75});
+    //res.json({result:64.75});
+    res.send("Hi Rahul");
 });
 app.listen(port);
